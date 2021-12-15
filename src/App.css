@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  /* border: 1px solid steelblue; */
+  padding: 30px;
+  opacity:0.95 ;
+  border-radius:3rem;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(92, 107, 16),
+    rgb(231, 191, 213)
+  );
+  
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: rgb(109, 14, 138);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  background: wheat;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.done {
+  border-left: 10px solid rgb(102, 18, 77);
+  text-decoration:line-through;
+  background-color: darkgrey;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+.btn2{
+  display:flex;
+  background: rgb(130, 138, 14);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  
+
+}
